@@ -3,45 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SPORTFLIX | Descargas Oficiales</title>
+    <title>SPORTFLIX | Catálogo Oficial</title>
     <link rel="stylesheet" href="style.css">
-    <!-- Incluir tu logo en la carpeta assets/logo.png -->
     <link rel="icon" type="image/jpg" href="assets/logo.jpg">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="repo-container">
         <header class="brand-header">
-            <img src="assets/logo.jpg" alt="SPORTFLIX Logo" class="brand-logo">
+            <div class="logo-wrapper">
+                <img src="assets/logo.jpg" alt="SPORTFLIX Logo" class="brand-logo">
+                <div class="logo-badge">Nuevo 🚀</div>
+            </div>
             <div class="branding">
                 <h1>SPORTFLIX</h1>
-                <p class="brand-handle">@sport.flixoficial</p>
-                <p class="brand-tagline">Tu tienda de ropa deportiva favorita<br>✨ Tu comodidad, tu deporte, tu estilo</p>
+                <a class="brand-handle" href="https://www.instagram.com/sport.flixoficial/">@sport.flixoficial</a>
+                <p class="brand-tagline">✨️Tu comodidad, tu deporte, tu estilo✨️</p>
             </div>
         </header>
 
         <main class="content">
             <section class="hero-section">
-                <h2>¡DESCUBRE NUESTRA COLECCIÓN!</h2>
+                <h2>¡CATÁLOGO DISPONIBLE!</h2>
                 <p class="hero-description">Encuentra lo último en ropa deportiva. Diseñado para quienes aman la comodidad, el deporte y la moda.</p>
-                <a href="downloads/catalogo.pdf" class="download-btn" download>
-                    📥 DESCARGAR CATÁLOGO
-                </a>
-                <a href="https://drive.google.com/file/d/1b8jO52PdDceJ46dwenDsfLOic40ubPvh/view?usp=drive_link/view" target="_blank" class="view-btn">
-                    🔗 VER CATÁLOGO EN EL NAVEGADOR
-                </a>
+                
+                <div class="cta-buttons">
+                    <a href="downloads/catalogo.pdf" class="download-btn" download>
+                        <span class="btn-icon">📥</span>
+                        Descargar PDF
+                    </a>
+                    <a href="https://drive.google.com/file/d/1b8jO52PdDceJ46dwenDsfLOic40ubPvh/view?usp=drive_link/view" 
+                       target="_blank" 
+                       class="view-btn">
+                        <span class="btn-icon">👀</span>
+                        Ver Online
+                    </a>
+                </div>
             </section>
         </main>
 
         <footer class="repo-footer">
-            <div class="footer-info">
-                <p><strong>Tienda Virtual</strong></p>
-                <p>📍 Cartago, Valle | Envíos Nacionales co</p>
-                <p>© 2025 SPORTFLIX - Todos los derechos reservados</p>
+            <div class="contact-section">
+                <div class="store-info">
+                    <p class="location">📍 Cartago, Valle</p>
+                    <p class="shipping">🚚 Envíos a todo Colombia</p>
+                </div>
+                
+                <div class="instagram-cta">
+                    <p>¡Síguenos para novedades y ofertas!</p>
+                    <a href="https://www.instagram.com/sport.flixoficial/" 
+                       target="_blank" 
+                       class="instagram-btn">
+                        <img src="assets/instagram-icon.png" alt="Instagram" class="social-icon">
+                        ¡Contacta con nosotros!
+                    </a>
+                </div>
             </div>
-            <div class="social-media">
-                <a href="https://www.instagram.com/sport.flixoficial/" target="_blank" class="instagram-btn">
-                    <img src="assets/instagram-icon.png" alt="Instagram" class="social-icon">✨Siguenos en instagram✨
-                </a>
+            
+            <div class="watermark">
+                <p>© 2025 SPORTFLIX - Todos los derechos reservados</p>
             </div>
         </footer>
     </div>

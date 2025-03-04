@@ -158,7 +158,6 @@ body {
 }
 
 .instagram-btn {
-    display: inline-block;
     padding: 1rem 2rem;
     background: var(--instagram-color);
     color: var(--secondary-color);
@@ -171,12 +170,20 @@ body {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     display: flex;
     align-items: center;
+    width: 20rem;
+}
+.instagram-cta {
+    justify-content: center;
+    align-items: center;
 }
 
 .instagram-btn .social-icon {
-    width: 24px;
+    width: 30px;
     height: auto;
     margin-right: 0.5rem;
+}
+.social-icon {
+    margin-left: 1rem;
 }
 
 .instagram-btn:hover {
