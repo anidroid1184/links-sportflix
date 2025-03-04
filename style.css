@@ -11,7 +11,7 @@
     --background-color: #ffffff;
     /* Fondo blanco */
     --instagram-color: #7141c7;
-    /* Rojo de Instagram */
+    /* Morado de Instagram */
 }
 
 body {
@@ -92,21 +92,41 @@ body {
     margin-bottom: 2rem;
 }
 
-.download-btn {
+.download-btn,
+.view-btn {
     display: inline-block;
     padding: 1rem 2rem;
-    background: var(--primary-color);
-    color: var(--secondary-color);
-    border: 2px solid var(--primary-color);
     border-radius: 8px;
     text-decoration: none;
     font-weight: bold;
     font-size: 1.2rem;
     transition: all 0.3s ease;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 0.5rem 0;
+}
+
+.download-btn {
+    background: var(--primary-color);
+    color: var(--secondary-color);
+    border: 2px solid var(--primary-color);
 }
 
 .download-btn:hover {
+    background: var(--accent-color);
+    color: var(--primary-color);
+    transform: scale(1.05);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+}
+
+.view-btn {
+    background: var(--primary-color);
+    color: var(--secondary-color);
+    border: 1px solid var(--primary-color);
+    padding: 1rem 0.5rem;
+    width: 20rem;
+}
+
+.view-btn:hover {
     background: var(--accent-color);
     color: var(--primary-color);
     transform: scale(1.05);
@@ -130,6 +150,7 @@ body {
     display: flex;
     justify-content: center;
 }
+
 .social-icon {
     border-radius: 100%;
 }
